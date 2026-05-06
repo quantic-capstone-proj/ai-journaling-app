@@ -1,0 +1,12 @@
+[project]
+name = "journal-api"
+version = "1.0.0"
+description = "FastAPI backend for AI journaling app"
+requires-python = ">=3.10"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W"]
